@@ -1,0 +1,9 @@
+{
+    "games": {
+        "getfrom": "{{getfrom}}",
+        "name": "{{name}}",
+        "url": "{{url}}",
+        "discription": "{{discription}}",
+        "views": "{{views}}"
+    }
+}

@@ -1,0 +1,98 @@
+<html>
+
+<head>
+
+    <title>{{ name }}</title>
+    <!-- <script type="text/javascript">
+        function getWeather(item) {
+            kek = fecth('https://weather.com/weather/today/l/dd84dd441f663487afaade828274ccc19d18e3f7a14f1e3078a60f9693db4d36');
+            console.log(kek);
+            alert();
+        }
+    </script> -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <h1>Hello, {{ name }}!</h1>
+    <a href="/download/manual">Download manual</a>
+    <br />
+    <br />
+    <br />
+
+    <!-- <ul>
+        <li><button click="getWeather('moscow')">Moscow</button></li>
+        <li><button onclick="getWeather('Ukhta')">Ukhta</button></li>
+    </ul> -->
+
+    <div class="row bg-secondary">
+
+        <div class="col-sm-4 d-flex justify-content-center bg-light" style="padding: 15px;">
+            <div class="col text-center">
+                <p class="mb-0" style="font-size: 25px;"><b>GET from <i>others</i></b></p>
+                <ul class="list-group list-group-flush">
+                    <a href="/weather">
+                        <li class="list-group-item list-group-item-success">Get weather</li>
+                    </a>
+                    <a href="#">
+                        <li class="list-group-item list-group-item-warning">Link 2</li>
+                    </a>
+                    <a href="#">
+                        <li class="list-group-item list-group-item-danger">Link 3</li>
+                    </a>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="col-sm-8 bg-primary text-center">
+            <div class="col">
+                <p class="mb-0" style="font-size: 25px;"><b>GET from <i>own</i></b></p>
+            </div>
+
+            <div class="col bg-danger">
+                <p class="mb-0" style="font-size: 25px;"><b>Services</b></p>
+                <ul class="list-group list-group-flush">
+                    <a href="#">
+                        <li class="list-group-item list-group-item-success">Add new</li>
+                    </a>
+                    <a href="#">
+                        <li class="list-group-item list-group-item-warning">Update</li>
+                    </a>
+                    <a href="#">
+                        <li class="list-group-item list-group-item-danger">Delete</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="col text-center bg-info">
+                <p class="mb-0" style="font-size: 25px;"><b>GET <i>it</i></b></p>
+                <ul class="list-group list-group-flush">
+                    <a href="{{href1}}">
+                        <li class="list-group-item list-group-item-success">{{link1}}</li>
+                    </a>
+                    <a href="{{href2}}">
+                        <li class="list-group-item list-group-item-warning">{{link2}}</li>
+                    </a>
+                    <a href="{{href3}}">
+                        <li class="list-group-item list-group-item-danger">{{link3}}</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div>
+
+    </div>
+</body>
+
+</html>

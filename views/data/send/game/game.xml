@@ -1,0 +1,25 @@
+{
+    "games": [
+        {
+            "getfrom": "/game/titanfall2",
+            "name": "Titanfall 2",
+            "url": "https://s1.torrents-igruha.org/122-titanfall-2-repack-ot-xatab.html",
+            "discription": "titanfall2.txt",
+            "views": "445907"
+        },
+        {
+            "getfrom": "/game/stardewvalley",
+            "name": "Stardew Valley",
+            "url": "https://s1.torrents-igruha.org/1523-download-stardew-valley.html",
+            "discription": "stardewvalley.txt",
+            "views": "277073"
+        },
+        {
+            "getfrom": "/game/skyrim",
+            "name": "The Elder Scrolls 5 Skyrim Special Edition + Legendary Edition",
+            "url": "https://s1.torrents-igruha.org/403-21-07-the-elder-scrolls-5-skyrim-special-edition-download-01.html",
+            "discription": "skyrim.txt",
+            "views": "4396411"
+        }
+    ]
+}
